@@ -17,7 +17,7 @@ export class EmployeeService {
   }
 
   getEmployeeList(): Observable<any> {
-    return this._http.get('http://localhost:3000/employees');
+    return this._http.get('https://photogram1.selfmade.one/test.php');
   }
 
   deleteEmployee(id: number): Observable<any> {
